@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "tar": "^6.1.15"
+  }
+}
