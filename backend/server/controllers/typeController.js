@@ -12,7 +12,6 @@ class TypeController{
     async getAll(req, res) {
         let types = await Type.findAll()
         return res.json(types)
-        
     }
 
 }

@@ -25,7 +25,7 @@ const NavBar = observer(() => {
                     <Nav className="ml-auto" style={{color: 'white'}}>
                         <Button
                             variant={"outline-light"}
-                            onClick={() => history.push(ADMIN_ROUTE)}
+                            onClick={() => history(ADMIN_ROUTE)}
                         >
                             Админ панель
                         </Button>
@@ -39,7 +39,7 @@ const NavBar = observer(() => {
                     </Nav>
                     :
                     <Nav className="ml-auto" style={{color: 'white'}}>
-                        <Button variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Авторизация</Button>
+                        <Button variant={"outline-light"} onClick={() => history(LOGIN_ROUTE)}>Авторизация</Button>
                     </Nav>
                 }
             </Container>
